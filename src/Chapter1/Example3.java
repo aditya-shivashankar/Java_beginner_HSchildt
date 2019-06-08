@@ -1,7 +1,7 @@
 package Chapter1;
 
 public class Example3 {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int var;  // this declares an int variable
         double x; // this declares a floating-point variable
 
