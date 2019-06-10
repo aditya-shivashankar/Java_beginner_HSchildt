@@ -4,3 +4,4 @@ Code related to practice question for Java A Beginner's Guide 7th Edition-Herber
 List of Chapters that have been completed so far:<br />
 Chapter 1<br />
 Chapter 2<br />
+Chapter 3<br />
