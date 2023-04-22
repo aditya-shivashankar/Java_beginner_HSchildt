@@ -2,7 +2,7 @@ package Chapter6;
 
 
 class Queue {
-    private char q[]; // this array holds the queue
+    private final char[] q; // this array holds the queue
     private int putloc, getloc; // the put and get indices
 
     Queue(int size) {
@@ -26,7 +26,7 @@ class Queue {
         getloc = 0;
         q = new char[a.length];
 
-        for(int i = 0; i < a.length; i++) put(a[i]);
+        for (char c : a) put(c);
     }
 
     // put a characer into the queue
@@ -54,7 +54,7 @@ class QueueDemo2{
     public static void main(String[] args) {
         //construct 10 element empty queue
         Queue q1 = new Queue(10);
-        char name[] = {'T', 'o', 'm'};
+        char[] name = {'T', 'o', 'm'};
         //construct queue from array
         Queue q2 = new Queue(name);
 
