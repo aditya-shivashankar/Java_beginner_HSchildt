@@ -1,6 +1,8 @@
 package Chapter8;
 
-class FixedQueue implements ICharQ{
+import Chapter8.qpack.ICharQ;
+
+class FixedQueue implements ICharQ {
     private char q[];
     private int putloc, getloc;
 
