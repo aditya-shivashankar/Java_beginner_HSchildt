@@ -39,7 +39,7 @@ class TrafficLightSimulator implements Runnable{
     synchronized void waitForChange(){
         try{
             while(!changed)
-                wait(); // wont return till changeColor() executes call to notify()
+                wait(); // won't return till changeColor() executes call to notify()
             changed = false;
         }catch (InterruptedException ex){
             ex.printStackTrace();

@@ -92,7 +92,7 @@ class DynQueue implements ICharQ{
 }
 
 class CircularDynQueue implements ICharQ{
-    private char q[];
+    private char[] q;
     private int putloc, getloc;
 
     public CircularDynQueue(int size){
@@ -102,7 +102,7 @@ class CircularDynQueue implements ICharQ{
 
     public void put(char ch){
         if((putloc+1==getloc) | ((putloc==q.length-1)&(getloc==0))){
-            char t[] = new char[q.length*2];
+            char[] t = new char[q.length*2];
             for(int i=0; i<q.length; i++)
                 t[i] = q[i];
 

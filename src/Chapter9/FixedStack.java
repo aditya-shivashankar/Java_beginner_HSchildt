@@ -1,7 +1,5 @@
 package Chapter9;
 
-import Chapter6.Stack;
-
 //Demonstrate stack of fixed size that throws exception
 public class FixedStack {
     private final char[] s; // this array holds the stack

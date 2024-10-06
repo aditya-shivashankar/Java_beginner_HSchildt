@@ -12,7 +12,7 @@ public class GenFixedStack<T> implements IGenStack<T> {
     }
 
 
-    // put a object into the stack
+    // put an object into the stack
     public void push(T obj) throws StackFullException {
         if(putloc==s.length) {
             throw new StackFullException(s.length);
