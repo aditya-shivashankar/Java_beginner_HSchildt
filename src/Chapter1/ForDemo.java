@@ -1,5 +1,6 @@
 package Chapter1;
 
+//Print the count
 public class ForDemo {
     public static void main(String[] args) {
         int count;
